@@ -9,6 +9,7 @@ import moviepy.editor as mp
 from pygments.styles import get_style_by_name
 from pygments.formatters import ImageFormatter
 from pygments import highlight
+from tkinter import messagebox
 
 
 def main():
@@ -108,3 +109,5 @@ if __name__ == "__main__":
         select_audio_source()
     except KeyboardInterrupt:
         sys.exit()
+    except Exception as e:
+        messagebox.showerror(title="video de programacion", message=f"{e}")
