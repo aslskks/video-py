@@ -5,4 +5,4 @@ moviepy==1.0.3
 wave==0.0.2
 sounddevice==0.4.6
 tk==0.1.0
-numpy
+numpy==1.26.1
